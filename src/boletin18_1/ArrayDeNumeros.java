@@ -8,6 +8,9 @@ import java.util.Random;
  */
 public class ArrayDeNumeros {
     int [] numeros = new int[6];
+
+    public ArrayDeNumeros() {
+    }
     
   public void CargarArray(){
         for(int i=0;i<numeros.length;i++){
