@@ -10,6 +10,7 @@ public class ArrayDeNumeros {
     int [] numeros = new int[6];
 
     public ArrayDeNumeros() {
+        System.out.println("Constructor");
     }
     
   public void CargarArray(){
